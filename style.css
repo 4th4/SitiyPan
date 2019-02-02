@@ -1,0 +1,133 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	position: relative;
+	height: 70px;
+	background: #2B1F19;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.75);
+	z-index: 1;
+}
+
+.header img{
+	position: relative;
+	width: 380px;
+	left: calc(50% - 190px);
+	margin-top: 6px;
+}
+
+.block1{
+	position: relative;
+	background: #E3CE0B;
+	overflow: auto;
+	height: 630px;
+}
+
+#title{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 120px;
+	width: 570px;
+}
+
+#visit{
+	position: relative;
+	clear: both;
+	float: left;
+	top: 200px;
+	left: 120px;
+	width: 200px;
+}
+
+#lRound{
+	position: absolute;
+	right: 0;
+	clear: right;
+	width: 420px;	
+}
+
+#sRound{
+	position: absolute;
+	clear: both;
+	right: 150px;
+	top: 270px;
+	width: 360px;
+}
+
+.block2{
+    position: relative;
+	background: #2B1F19;
+	overflow: auto;
+	height: 630px;
+}
+
+#veg{
+	position: relative;
+	float: left;
+	width: calc((100% - 480px)/3);
+	top: 90px;
+	margin-left: 120px;
+}
+
+#atmo{
+	position: relative;
+	float: left;
+	width: calc((100% - 480px)/3);
+	top: 90px;
+	margin-left: 120px;
+}
+
+#rate{
+	position: relative;
+	float: left;
+	width: calc((100% - 480px)/3);
+	top: 90px;
+	margin-left: 120px;
+}
+
+.block3{
+    position: relative;
+	background: #E3CE0B;
+	overflow: auto;
+	height: 630px;
+}
+
+#contacts{
+	position: relative;
+	float: left;
+	width: 40%;
+	top: 80px;
+	left: 120px;
+}
+
+.hidden{
+	position: absolute;
+	overflow: hidden;
+	clear: right;
+    right: 0;
+    top: 10px;
+    width: 620px;
+    height: 620px;
+}
+
+.mRound{
+  position: absolute;
+  overflow: hidden;
+  right: -100px;
+  border-radius: 50%;
+  z-index: 99;
+  width: 570px;
+  height: 570px;
+  border: 20px solid #2B1F19;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.75);
+}
+
+.mRound iframe{
+	position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    z-index: 50;
+}
