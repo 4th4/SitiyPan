@@ -131,3 +131,100 @@ body{
     top: 0; left: 0;
     z-index: 50;
 }
+
+@media screen and (max-width: 425px){
+	.header{
+		height: 90px;
+	}
+	.header img{
+		width: 300px;
+		left: calc(50% - 150px);
+		margin-top: 21px;
+	}
+	.block1{
+	    position: relative;
+	    background: #E3CE0B;
+	    overflow: auto;
+	    height: 630px;
+    }
+
+    #title{
+	    position: relative;
+	    float: left;
+	    top: 50px;
+	    left: calc(50% - 160px);
+	    width: 320px;
+    }
+
+    #visit{
+	    position: relative;
+	    clear: both;
+	    float: left;
+	    top: 70px;
+	    left: calc(50% - 160px);
+	    width: 150px;
+    }
+
+    #lRound{
+	    position: relative;
+	    float: right;
+	    width: 290px;
+	    top: 50px;	
+    }
+
+    #sRound{
+	    right: 120px;
+	    top: 380px;
+	    width: 240px;
+    }
+
+    .block2{
+	height: 580px;
+    }
+
+#veg{
+	width: 38%;
+	top: 50px;
+	margin-left: 31%;
+}
+
+#atmo{
+	width: 38%;
+	top: 80px;
+	margin-left: 8%;
+}
+
+#rate{
+	width: 38%;
+	top: 80px;
+	margin-left: 8%;
+}
+
+.block3{
+	height: 700px;
+}
+
+#contacts{
+	width: 70%;
+	top: 30px;
+	left: 15%;
+}
+
+.hidden{
+    top: 300px;
+    width: 400px;
+    height: 400px;
+}
+
+.mRound{
+  right: -30px;
+  width: 350px;
+  height: 350px;
+}
+
+.mRound iframe{
+    width: 350px;
+    height: 350px;
+}
+
+}
